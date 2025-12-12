@@ -5,6 +5,8 @@ public class Atm
     {
         int money=1000;
         Scanner s=new Scanner(System.in);
+        System.out.println("ATM FUNCTIONALITYS");
+        System.out.println("=====================================");
         System.out.println("1.Deposit");
         System.out.println("2.With draw");
         System.out.println("3.total balance");
@@ -54,4 +56,5 @@ public class Atm
 
 
     }
+
 }
