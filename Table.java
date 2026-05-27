@@ -47,20 +47,26 @@ public class Table
     public static void main(String args[])
     {
     menu();
+    while(true)
+    {
     switch(Choice)
     {
         case 1:
             table();
             menu();
+            break;
         case 2:
             tables();
             menu();
+            break;
         case 3:
             System.out.println("Thank you");
             System.exit(0);
+            break;
         default:
             System.out.println("Invalid option,try again....");
     }
     s.close();
+}
     }
 }
